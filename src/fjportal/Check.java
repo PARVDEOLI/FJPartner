@@ -1,7 +1,5 @@
 package fjportal;
 
-import org.openqa.selenium.WebDriver;
-
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -15,7 +13,7 @@ public class Check{
 
 //@Test
 public void Check() throws InterruptedException {
-	System.out.println(driver.getCurrentUrl());
+	//System.out.println(driver.getCurrentUrl());
 
 	}
 

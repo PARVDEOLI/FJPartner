@@ -5,7 +5,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Reporter;
 import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
 
 //@Test
 public class App {
@@ -13,7 +12,7 @@ public class App {
 	public static WebDriver driver;
 @BeforeTest
 	
-	public void  App() throws InterruptedException
+	public void App() throws InterruptedException
 	{
 		 driver = new ChromeDriver();
 		
