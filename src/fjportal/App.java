@@ -10,11 +10,12 @@ import org.testng.annotations.BeforeTest;
 public class App {
 	
 	public static WebDriver driver;
-@BeforeTest
 	
+
+	@BeforeTest
 	public void App() throws InterruptedException
 	{
-		 driver = new ChromeDriver();
+		driver = new ChromeDriver();
 		
 		driver.get("http://13.64.144.136/qa/account/login");
         driver.manage().window().maximize();

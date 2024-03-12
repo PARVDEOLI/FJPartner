@@ -6,6 +6,7 @@
       <class name="fjportal.CreateNewEntity">
         <methods>
           <include name="createEntity"/>
+          <include name="App"/>
         </methods>
       </class> <!-- fjportal.CreateNewEntity -->
     </classes>
