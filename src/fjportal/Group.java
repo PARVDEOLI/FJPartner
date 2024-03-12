@@ -16,6 +16,7 @@ public class Group extends App {
 //		driver.findElement(By.xpath("//button[@type='submit']")).click();
 		//WebDriver driver = this.driver;
 
+		driver.findElement(By.xpath("//ul[@class='menu-link p-0 m-0']/li[3]")).click();
         Thread.sleep(2000);
 
         driver.findElement(By.xpath("//ul[@class='menu-link p-0 m-0']/li[3]")).click();

@@ -3,22 +3,9 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="fjportal.AddExistingDBA">
-        <methods>
-          <include name="AddDBA"/>
-          <include name="App"/>
-        </methods>
-      </class> <!-- fjportal.AddExistingDBA -->
-      <class name="fjportal.Group">
-        <methods>
-          <include name="CreateGroup"/>
-          <include name="App"/>
-        </methods>
-      </class> <!-- fjportal.Group -->
       <class name="fjportal.CreateNewEntity">
         <methods>
           <include name="createEntity"/>
-          <include name="App"/>
         </methods>
       </class> <!-- fjportal.CreateNewEntity -->
     </classes>
