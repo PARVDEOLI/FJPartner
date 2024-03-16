@@ -6,13 +6,9 @@
       <class name="fjportal.Group">
         <methods>
           <include name="CreateGroup"/>
+          <include name="App"/>
         </methods>
       </class> <!-- fjportal.Group -->
-      <class name="fjportal.AddExistingDBA">
-        <methods>
-          <include name="AddDBA"/>
-        </methods>
-      </class> <!-- fjportal.AddExistingDBA -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

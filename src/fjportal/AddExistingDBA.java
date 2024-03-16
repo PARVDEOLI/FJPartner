@@ -1,15 +1,17 @@
 package fjportal;
 
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 import org.openqa.selenium.JavascriptExecutor;
 
 public class AddExistingDBA extends App {
 	
+	public AddExistingDBA() throws InterruptedException {
+		super();
+		// TODO Auto-generated constructor stub
+	}
 	@Test
 	public void AddDBA() throws InterruptedException
 	{
@@ -17,7 +19,7 @@ public class AddExistingDBA extends App {
 		//String month = "March 2019";
         //String day = "20";
 		
-		WebDriver driver = new ChromeDriver();
+		//WebDriver driver = new ChromeDriver();
 //		driver.get("http://13.64.144.136/qa/account/login");
 //		driver.manage().window().maximize();
 //		driver.findElement(By.xpath("//input[@type='email']")).sendKeys("parveen@filejet.com");
