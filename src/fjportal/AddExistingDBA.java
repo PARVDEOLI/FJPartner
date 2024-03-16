@@ -8,6 +8,10 @@ import org.openqa.selenium.JavascriptExecutor;
 
 public class AddExistingDBA extends App {
 	
+	public AddExistingDBA() throws InterruptedException {
+		super();
+		// TODO Auto-generated constructor stub
+	}
 	@Test
 	public void AddDBA() throws InterruptedException
 	{

@@ -4,6 +4,10 @@ import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
 public class Group extends App {
+	public Group() throws InterruptedException {
+		super();
+		// TODO Auto-generated constructor stub
+	}
 	
 	@Test
 	public void CreateGroup() throws InterruptedException
